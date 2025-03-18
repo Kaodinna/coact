@@ -136,11 +136,8 @@ const ExploreStartups = () => {
           </div>
         </div>
         <div className="grid md:grid-cols-3 grid-cols-1 items-center  gap-6 mt-12 px-[4%]">
-          {jobs.map((job, index) => (
-            <div
-              key={index}
-              className=" bg-[#f9fafc] rounded-[15px] border-[#c1b1b1]  border-[1px]"
-            >
+          {jobs.map(() => (
+            <div className=" bg-[#f9fafc] rounded-[15px] border-[#c1b1b1]  border-[1px]">
               <div className="p-3">
                 <div className="flex flex-row items-center gap-2">
                   <img
@@ -200,11 +197,8 @@ const ExploreStartups = () => {
           </div>
         </div>
         <div className="grid md:grid-cols-3 grid-cols-1 items-center  gap-6 mt-12 px-[4%]">
-          {jobs.map((job, index) => (
-            <div
-              key={index}
-              className=" bg-[#f9fafc] rounded-[15px] border-[#c1b1b1]  border-[1px]"
-            >
+          {jobs.map(() => (
+            <div className=" bg-[#f9fafc] rounded-[15px] border-[#c1b1b1]  border-[1px]">
               <div className="p-3">
                 <div className="flex flex-row items-center gap-2">
                   <img
