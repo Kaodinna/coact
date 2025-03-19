@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const ExploreStartups = () => {
   const jobs = [
@@ -123,12 +124,14 @@ const ExploreStartups = () => {
             industries. Get insights into what’s being built and why.
           </p>
           <div className="flex md:flex-row flex-col items-center gap-[8px] mt-[24px] ">
-            <div className="md:py-[22px] py-[10px] px-[54px] bg-[#551ff2] rounded-[50px] border-[#ffffff] border-[1px]">
-              <p className="text-[20px] font-[700] text-[#ffffff]">
-                Apply to Lead
-              </p>
-            </div>
-            <div className="md:py-[22px] py-[10px] px-[54px] bg-[#ffffff] rounded-[50px] border-[#000000] border-[1px]">
+            <Link to={"/venture"}>
+              <div className="md:py-[18px] py-[10px] px-[54px] bg-[#551ff2] rounded-[50px] border-[#ffffff] border-[1px] hover:bg-[#8a78f8] cursor-pointer">
+                <p className="text-[20px] font-[700] text-[#ffffff]">
+                  Apply to Lead
+                </p>
+              </div>
+            </Link>
+            <div className="md:py-[18px] py-[10px] px-[54px] bg-[#ffffff] rounded-[50px] border-[#000000] border-[1px]">
               <p className="text-[20px] font-[700] text-[#000000]">
                 Build with Us
               </p>
@@ -184,7 +187,7 @@ const ExploreStartups = () => {
             industries. Get insights into what’s being built and why.
           </p>
           <div className="flex md:flex-row flex-col items-center gap-[8px] mt-[24px] ">
-            <div className="md:py-[22px] py-[10px] px-[54px] bg-[#551ff2] rounded-[50px] border-[#ffffff] border-[1px]">
+            <div className="md:py-[22px] py-[10px] px-[54px] bg-[#551ff2] rounded-[50px] border-[#ffffff] border-[1px] hover:bg-[#8a78f8] cursor-pointer">
               <p className="text-[20px] font-[700] text-[#ffffff]">
                 Apply to Lead
               </p>

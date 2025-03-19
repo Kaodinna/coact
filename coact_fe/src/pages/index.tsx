@@ -59,7 +59,7 @@ const Index = () => {
               future.
             </p>
             <div className="flex flex-row items-center gap-[8px] mt-[24px] ">
-              <div className="md:py-[22px] py-[10px] px-[54px] bg-[#551ff2] rounded-[50px] border-[#ffffff] border-[1px]">
+              <div className="md:py-[18px] py-[10px] px-[36px] bg-[#551ff2] rounded-[50px] border-[#ffffff] border-[1px] hover:bg-[#8a78f8] cursor-pointer">
                 <p className="text-[20px] font-[700] text-[#ffffff]">
                   Build with us
                 </p>
@@ -82,7 +82,7 @@ const Index = () => {
             <p className="text-[24px] font-[400] text-[#000000] border-[#551ff2] border-l-[4px] pl-4">
               So, Who are we?
             </p>
-            <p className="md:text-[46px] text-[23px] font-[700] text-[#151515] mt-6">
+            <p className="md:text-[36px] text-[23px] font-[700] text-[#151515] mt-6">
               We’re a venture studio for the builders, the thinkers, and the
               curious—those who question what is and create what should be.
               <br />
@@ -90,7 +90,7 @@ const Index = () => {
               while exploring the ideas that shape tomorrow.
             </p>
             <div className="flex flex-row items-center mt-12">
-              <div className="bg-[#000000] rounded-tl-[30px] rounded-bl-[30px] w-1/2 md:h-[553px] h-[400px] pl-[12px]  md:pl-[32px] flex items-center">
+              <div className="bg-[#000000] rounded-tl-[30px] rounded-bl-[30px] w-1/2 md:h-[500px] h-[400px] pl-[12px]  md:pl-[32px] flex items-center">
                 <div className="flex flex-col gap-[8px] md:w-[80%] w-[95%]">
                   <p className="md:text-[50px] text-[24px] font-[400] text-[#ffffff] leading-[100%]">
                     2024 SaaS Benchmarks
@@ -102,7 +102,7 @@ const Index = () => {
                     and beyond.
                   </p>
 
-                  <div className="md:py-[14px] py-[10px] md:px-[30px] px-[15px] bg-[#551ff2] rounded-[50px]  mt-6 flex flex-row items-center md:w-[280px] md:gap-[16px] gap-[8px]">
+                  <div className="md:py-[14px] py-[10px] md:px-[30px] px-[15px] bg-[#551ff2] rounded-[50px]  mt-6 flex flex-row items-center md:w-[280px] md:gap-[16px] gap-[8px] hover:bg-[#8a78f8] cursor-pointer">
                     <p className="md:text-[20px] font-[400] text-[#ffffff] text-[12px]">
                       See All Companies
                     </p>
@@ -113,7 +113,7 @@ const Index = () => {
               <img
                 src="/images/book.png"
                 alt=""
-                className="w-1/2 md:h-[553px] h-[400px] rounded-tr-[30px] rounded-br-[30px]"
+                className="w-1/2 md:h-[500px] h-[400px] rounded-tr-[30px] rounded-br-[30px]"
               />
             </div>
             <div className="flex flex-col mt-16">
@@ -155,7 +155,7 @@ const Index = () => {
             </div>
           </div>
           <div className="bg-[#f3f1f9] flex flex-col px-[4%] pb-24">
-            <p className="md:text-[78px] text-[32px] font-[400] text-[#000000] text-center mt-32">
+            <p className="md:text-[78px] text-[32px] font-[400] text-[#000000] text-center mt-24">
               Our Open Playbook
             </p>
             <p className="text-[20px] font-[300] text-[#000000] text-center mt-4">
@@ -165,7 +165,7 @@ const Index = () => {
             <div className="mt-8 flex md:flex-row flex-col gap-4">
               {playbook.map((playbooks, index) => (
                 <div
-                  className="rounded-[15px] bg-[#ffffff] md:w-1/3 md:h-[411px] h-[300px] w-full flex flex-col justify-center p-8"
+                  className="rounded-[15px] bg-[#ffffff] md:w-1/3 md:h-[300px] h-[300px] w-full flex flex-col justify-center p-8"
                   key={index}
                 >
                   <div className="bg-[#f3f1f9] rounded-[10px] w-[82px] h-[82px] flex justify-center items-center">
@@ -189,7 +189,7 @@ const Index = () => {
             <p className="text-[24px] font-[400] text-[#ffffff] border-[#ffffff] border-l-[4px] pl-4">
               Benefits
             </p>
-            <p className="md:text-[78px] text-[32px] font-[400] text-[#ffffff] mt-12">
+            <p className="md:text-[58px] text-[32px] font-[400] text-[#ffffff] mt-12">
               Explore the Ecosystem
             </p>
             <p className="text-[20px] font-[400] text-[#ffffff] mt-6 leading-[100%]">
@@ -210,111 +210,111 @@ const Index = () => {
                 </div>
               ))}
             </div>
-            <div className="flex flex-col gap-8 md:mt-64 mt-24">
-              <div className="flex md:flex-row justify-end gap-8 flex-col">
-                <div className="bg-[#3e3e3e] border-[#ffffff] border-[2px] rounded-[50px] md:py-[20px] py-[10px] px-[20px] justify-center md:px-[40px] flex flex-row gap-[16px]">
+            <div className="flex flex-col gap-8 md:mt-24 mt-24">
+              <div className="flex md:flex-row justify-end gap-6 flex-col">
+                <div className="bg-[#3e3e3e] border-[#ffffff] border-[2px] rounded-[50px] md:py-[16px] py-[10px] px-[20px] justify-center md:px-[24px] flex flex-row gap-[16px]">
                   <img
                     src="/images/bag.svg"
                     alt=""
-                    className="w-[36px] h-[36px]"
+                    className="w-[24px] h-[24px]"
                   />
-                  <p className="text-[24px] font-[400] text-[#ffffff] ">
+                  <p className="text-[18px] font-[400] text-[#ffffff] ">
                     Work & Wealth
                   </p>
                 </div>
-                <div className="bg-[#3e3e3e] border-[#ffffff] border-[2px] rounded-[50px] md:py-[20px] md:px-[40px] py-[10px] px-[20px] justify-center flex flex-row gap-[16px]">
+                <div className="bg-[#3e3e3e] border-[#ffffff] border-[2px] rounded-[50px] md:py-[16px] md:px-[20px] py-[10px] px-[20px] justify-center flex flex-row gap-[16px]">
                   <img
                     src="/images/bag.svg"
                     alt=""
-                    className="w-[36px] h-[36px]"
+                    className="w-[24px] h-[24px]"
                   />
-                  <p className="text-[24px] font-[400] text-[#ffffff] ">
+                  <p className="text-[18px] font-[400] text-[#ffffff] ">
                     Energy & Resources
                   </p>
                 </div>
               </div>
-              <div className="flex md:flex-row flex-col justify-end gap-8">
-                <div className="bg-[#3e3e3e] border-[#ffffff] border-[2px] rounded-[50px] md:py-[20px] md:px-[40px] py-[10px] px-[20px] justify-center flex flex-row gap-[16px]">
+              <div className="flex md:flex-row flex-col justify-end gap-6">
+                <div className="bg-[#3e3e3e] border-[#ffffff] border-[2px] rounded-[50px] md:py-[16px] md:px-[20px] py-[10px] px-[20px] justify-center flex flex-row gap-[16px]">
                   <img
                     src="/images/bag.svg"
                     alt=""
-                    className="w-[36px] h-[36px]"
+                    className="w-[24px] h-[24px]"
                   />
-                  <p className="text-[24px] font-[400] text-[#ffffff] ">
+                  <p className="text-[18px] font-[400] text-[#ffffff] ">
                     Knowledge & Thought
                   </p>
                 </div>
-                <div className="bg-[#3e3e3e] border-[#ffffff] border-[2px] rounded-[50px] md:py-[20px] md:px-[40px] py-[10px] px-[20px] justify-center flex flex-row gap-[16px]">
+                <div className="bg-[#3e3e3e] border-[#ffffff] border-[2px] rounded-[50px] md:py-[16px] md:px-[20px] py-[10px] px-[20px] justify-center flex flex-row gap-[16px]">
                   <img
                     src="/images/bag.svg"
                     alt=""
-                    className="w-[36px] h-[36px]"
+                    className="w-[24px] h-[24px]"
                   />
-                  <p className="text-[24px] font-[400] text-[#ffffff] ">
+                  <p className="text-[18px] font-[400] text-[#ffffff] ">
                     Exploration & Discovery
                   </p>
                 </div>
               </div>
-              <div className="flex flex-col md:flex-row justify-end gap-8">
-                <div className="bg-[#3e3e3e] border-[#ffffff] border-[2px] rounded-[50px] md:py-[20px] md:px-[40px] py-[10px] px-[20px] justify-center flex flex-row gap-[16px]">
+              <div className="flex flex-col md:flex-row justify-end gap-6">
+                <div className="bg-[#3e3e3e] border-[#ffffff] border-[2px] rounded-[50px] md:py-[16px] md:px-[20px] py-[10px] px-[20px] justify-center flex flex-row gap-[16px]">
                   <img
                     src="/images/bag.svg"
                     alt=""
-                    className="w-[36px] h-[36px]"
+                    className="w-[24px] h-[24px]"
                   />
-                  <p className="text-[24px] font-[400] text-[#ffffff] ">
+                  <p className="text-[18px] font-[400] text-[#ffffff] ">
                     Media & Influence
                   </p>
                 </div>
-                <div className="bg-[#3e3e3e] border-[#ffffff] border-[2px] rounded-[50px] md:py-[20px] md:px-[40px] py-[10px] px-[20px] justify-center flex flex-row gap-[16px]">
+                <div className="bg-[#3e3e3e] border-[#ffffff] border-[2px] rounded-[50px] md:py-[16px] md:px-[20px] py-[10px] px-[20px] justify-center flex flex-row gap-[16px]">
                   <img
                     src="/images/bag.svg"
                     alt=""
-                    className="w-[36px] h-[36px]"
+                    className="w-[24px] h-[24px]"
                   />
-                  <p className="text-[24px] font-[400] text-[#ffffff] ">
+                  <p className="text-[18px] font-[400] text-[#ffffff] ">
                     Trade & Commerce
                   </p>
                 </div>
-                <div className="bg-[#3e3e3e] border-[#ffffff] border-[2px] rounded-[50px] md:py-[20px] md:px-[40px] py-[10px] px-[20px] justify-center flex flex-row gap-[16px]">
+                <div className="bg-[#3e3e3e] border-[#ffffff] border-[2px] rounded-[50px] md:py-[16px] md:px-[20px] py-[10px] px-[20px] justify-center flex flex-row gap-[16px]">
                   <img
                     src="/images/bag.svg"
                     alt=""
-                    className="w-[36px] h-[36px]"
+                    className="w-[24px] h-[24px]"
                   />
-                  <p className="text-[24px] font-[400] text-[#ffffff] ">
+                  <p className="text-[18px] font-[400] text-[#ffffff] ">
                     Food & Systems
                   </p>
                 </div>
               </div>
-              <div className="flex md:flex-row flex-col  justify-end gap-8">
-                <div className="bg-[#3e3e3e] border-[#ffffff] border-[2px] rounded-[50px] md:py-[20px] md:px-[40px] py-[10px] px-[20px] justify-center flex flex-row gap-[16px]">
+              <div className="flex md:flex-row flex-col  justify-end gap-6">
+                <div className="bg-[#3e3e3e] border-[#ffffff] border-[2px] rounded-[50px] md:py-[16px] md:px-[20px] py-[10px] px-[20px] justify-center flex flex-row gap-[16px]">
                   <img
                     src="/images/bag.svg"
                     alt=""
-                    className="w-[36px] h-[36px]"
+                    className="w-[24px] h-[24px]"
                   />
-                  <p className="text-[24px] font-[400] text-[#ffffff] ">
+                  <p className="text-[18px] font-[400] text-[#ffffff] ">
                     Food & Systems
                   </p>
                 </div>
-                <div className="bg-[#3e3e3e] border-[#ffffff] border-[2px] rounded-[50px] md:py-[20px] md:px-[40px] py-[10px] px-[20px] justify-center flex flex-row gap-[16px]">
+                <div className="bg-[#3e3e3e] border-[#ffffff] border-[2px] rounded-[50px] md:py-[16px] md:px-[20px] py-[10px] px-[20px] justify-center flex flex-row gap-[16px]">
                   <img
                     src="/images/bag.svg"
                     alt=""
-                    className="w-[36px] h-[36px]"
+                    className="w-[24px] h-[24px]"
                   />
-                  <p className="text-[24px] font-[400] text-[#ffffff] ">
+                  <p className="text-[18px] font-[400] text-[#ffffff] ">
                     Mobility & Logistics
                   </p>
                 </div>
-                <div className="bg-[#3e3e3e] border-[#ffffff] border-[2px] rounded-[50px] py-[20px] px-[40px] flex flex-row gap-[16px]">
+                <div className="bg-[#3e3e3e] border-[#ffffff] border-[2px] rounded-[50px] py-[16px] px-[20px] flex flex-row gap-[16px]">
                   <img
                     src="/images/bag.svg"
                     alt=""
-                    className="w-[36px] h-[36px]"
+                    className="w-[24px] h-[24px]"
                   />
-                  <p className="text-[24px] font-[400] text-[#ffffff] ">
+                  <p className="text-[18px] font-[400] text-[#ffffff] ">
                     Media & Influence
                   </p>
                 </div>
@@ -325,7 +325,7 @@ const Index = () => {
             <img
               src="/images/image-16.png"
               alt=""
-              className="md:w-[40%] w-full md:h-[610px] h-[300px] rounded-[30px]"
+              className="md:w-[40%] w-full md:h-[450px] h-[300px] rounded-[30px]"
             />
             <div className="md:w-[50%] w-full">
               <p className="md:text-[60px] text-[30px] font-[400] text-[#000000] leading-[100%] mt-4">

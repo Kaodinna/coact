@@ -1,9 +1,13 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <div className="px-[4%] bg-[#f9fafc] md:pt-32 pt-16 pb-12">
       <div className="flex md:flex-row flex-col gap-8 ">
         <div className="md:w-[40%] w-full">
-          <img src="/images/logo.svg" alt="" className="w-[162px] h-[59px]" />
+          <Link to={"/"}>
+            <img src="/images/logo.svg" alt="" className="w-[162px] h-[59px]" />
+          </Link>
           <p className="text-[#151515] text-[24px] leading-[100%] font-[400] mt-6">
             Coact Network is a venture studio building products that refine
             industries, simplify life, and explore the ideas shaping tomorrow.
@@ -47,7 +51,7 @@ const Footer = () => {
               type="text"
               className="border-[#d9d9d9] rounded-[10px] h-[69px] border-[1px] mt-8 text-[#000000] w-full px-8"
             />
-            <button className="bg-[#551ff2] py-[20px] px-[40px] mt-4 rounded-[5px] text-[20px] font-[400] text-white">
+            <button className="bg-[#551ff2] py-[20px] px-[40px] mt-4 rounded-[5px] text-[20px] font-[400] text-white hover:bg-[#8a78f8] cursor-pointer">
               Subscribe Now
             </button>
           </div>

@@ -71,7 +71,7 @@ const Opportunities = () => {
               entrepreneurial journey and drive your startup to success
             </p>
             <div className="flex flex-row items-center gap-[8px] mt-[24px] ">
-              <div className="md:py-[22px] py-[10px] px-[54px] bg-[#551ff2] rounded-[50px] border-[#ffffff] border-[1px]">
+              <div className="md:py-[18px] py-[10px] px-[54px] bg-[#551ff2] rounded-[50px] border-[#ffffff] border-[1px] hover:bg-[#8a78f8] cursor-pointer">
                 <p className="text-[20px] font-[700] text-[#ffffff]">
                   {" "}
                   List Startup Opportunity
@@ -84,7 +84,7 @@ const Opportunities = () => {
               <img
                 src="/images/img4.png"
                 alt=""
-                className="md:rounded-[30px] rounded-[15px] md:h-[662px] h-[300px]"
+                className="md:rounded-[30px] rounded-[15px] md:h-[662px] h-[300px] w-full"
               />
             </div>
             <div className="w-[35%] flex flex-col md:gap-4 gap-2 justify-between">
@@ -109,7 +109,7 @@ const Opportunities = () => {
               Latest Startup Opportunity
             </p>
             <div className="flex flex-row items-center gap-[8px] mt-[24px] ">
-              <div className="md:py-[22px] py-[10px] px-[54px] bg-[#551ff2] rounded-[50px] border-[#ffffff] border-[1px]">
+              <div className="md:py-[18px] py-[10px] px-[54px] bg-[#551ff2] rounded-[50px] border-[#ffffff] border-[1px] hover:bg-[#8a78f8] cursor-pointer">
                 <p className="text-[20px] font-[700] text-[#ffffff]">
                   View All Listing
                 </p>

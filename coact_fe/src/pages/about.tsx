@@ -62,7 +62,7 @@ const About = () => {
               possible.
             </p>
             <div className="flex flex-row items-center gap-[8px] mt-[24px] ">
-              <div className="md:py-[22px] py-[10px] px-[54px] bg-[#551ff2] rounded-[50px] border-[#ffffff] border-[1px]">
+              <div className="md:py-[18px] py-[10px] px-[54px] bg-[#551ff2] rounded-[50px] border-[#ffffff] border-[1px] hover:bg-[#8a78f8] cursor-pointer">
                 <p className="text-[20px] font-[700] text-[#ffffff]">Join us</p>
               </div>
             </div>
@@ -72,19 +72,19 @@ const About = () => {
               <img
                 src="/images/img1.png"
                 alt=""
-                className="md:rounded-[30px] rounded-[15px] md:h-[662px] h-[300px]"
+                className="md:rounded-[30px] rounded-[15px] md:h-[662px] h-[300px] w-full"
               />
             </div>
             <div className="w-[35%] flex flex-col md:gap-4 gap-2 justify-between">
               <img
                 src="/images/img2.png"
                 alt=""
-                className="md:rounded-[30px] md:h-[317px] h-[140px] rounded-[15px]"
+                className="md:rounded-[30px] md:h-[317px] h-[140px] rounded-[15px] w-full"
               />
               <img
                 src="/images/img3.png"
                 alt=""
-                className="md:rounded-[30px] md:h-[317px] h-[140px] rounded-[15px]"
+                className="md:rounded-[30px] md:h-[317px] h-[140px] rounded-[15px] w-full"
               />
             </div>
           </div>
@@ -175,11 +175,11 @@ const About = () => {
             <p className="text-[24px] font-[400] text-[#000000] border-[#551ff2] border-l-[4px] pl-4">
               What We Believe
             </p>
-            <p className="md:text-[78px] text-[32px] font-[400] text-[#000000] leading-[100%] mt-6 md:w-[80%] w-full">
+            <p className="md:text-[58px] text-[32px] font-[400] text-[#000000] leading-[100%] mt-6 md:w-[80%] w-full">
               The Engine That Moves
               <br /> Startups Forward
             </p>
-            <p className="md:text-[35px] text-[24px] font-[400] text-[rgb(0,0,0)] leading-[100%] mt-6 md:w-[80%] w-full">
+            <p className="md:text-[32px] text-[24px] font-[400] text-[rgb(0,0,0)] leading-[100%] mt-6 md:w-[80%] w-full">
               Ideas alone don’t change the world—execution does.
               <br />
               <br /> Coactng is the engine powering startups from concept to
@@ -215,21 +215,20 @@ const About = () => {
               ))}
             </div>
             <div className="flex flex-row items-center mt-12">
-              <div className="bg-[#000000] rounded-tl-[30px] rounded-bl-[30px] w-1/2 md:h-[553px] h-[400px] pl-[12px]  md:pl-[32px] flex items-center">
+              <div className="bg-[#000000] rounded-tl-[30px] rounded-bl-[30px] w-1/2 md:h-[500px] h-[400px] pl-[12px]  md:pl-[32px] flex items-center">
                 <div className="flex flex-col gap-[8px] md:w-[80%] w-[95%]">
                   <p className="md:text-[50px] text-[24px] font-[400] text-[#ffffff] leading-[100%]">
-                    2024 SaaS Benchmarks
-                    <br /> Report
+                    Join the Journey
                   </p>
-                  <p className="md:text-[18px] text-[12px] font-[400] text-[#f5f5f5] leading-[100%]">
-                    With insights from over 800 SaaS companies, the report
-                    reveals what’s changing and what’s not for founders in 2024
-                    and beyond.
+                  <p className="md:text-[18px] text-[12px] font-[400] text-[#f5f5f5] leading-[100%] mt-4">
+                    We invite founders, builders, and thinkers to join us in
+                    pushing boundaries, questioning assumptions, and creating
+                    what needs to exist
                   </p>
 
-                  <div className="md:py-[14px] py-[10px] md:px-[30px] px-[15px] bg-[#551ff2] rounded-[50px]  mt-6 flex flex-row items-center md:w-[280px] md:gap-[16px] gap-[8px]">
-                    <p className="md:text-[20px] font-[400] text-[#ffffff] text-[12px]">
-                      See All Companies
+                  <div className="md:py-[14px] py-[10px] md:px-[30px] px-[15px] bg-[#551ff2] rounded-[50px]  mt-6 flex flex-row items-center md:w-[300px] md:gap-[16px] gap-[8px] hover:bg-[#8a78f8] cursor-pointer">
+                    <p className="md:text-[18px] font-[400] text-[#ffffff] text-[12px]">
+                      See what we're building
                     </p>
                     <HiArrowRight className="w-[24px] h-[24px] text-white" />
                   </div>
@@ -238,7 +237,7 @@ const About = () => {
               <img
                 src="/images/book.png"
                 alt=""
-                className="w-1/2 md:h-[553px] h-[400px] rounded-tr-[30px] rounded-br-[30px]"
+                className="w-1/2 md:h-[500px] h-[400px] rounded-tr-[30px] rounded-br-[30px]"
               />
             </div>
           </div>

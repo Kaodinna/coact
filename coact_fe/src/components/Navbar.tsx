@@ -47,7 +47,7 @@ const Navbar = () => {
 
           <li className="md:ml-8 text-sm md:my-0 my-7">
             <Link to="/">
-              <button className="text-gray-800 md:py-[10px] py-1 rounded-[30px] md:px-[30px] px-2 border-[#000000] border-[1px] hover:text-gray-400 duration-500 cursor-pointer text-[17px] font-[400]">
+              <button className="text-gray-800 md:py-[8px] py-1 rounded-[30px] md:px-[24px] px-2 border-[#000000] border-[1px] hover:text-gray-400 duration-500 cursor-pointer text-[17px] font-[400]">
                 Get Started
               </button>
             </Link>
